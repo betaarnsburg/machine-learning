@@ -1,2 +1,3 @@
 # machine-learning
-some codes in traditional machine learning
+different methods for traditional machine learning
+dataset: Minist

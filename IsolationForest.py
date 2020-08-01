@@ -16,6 +16,6 @@ anomaly=df.loc[df['anomaly']==-1]
 anomaly_index=list(anomaly.index)
 print(anomaly)
 
-outliers_counter = len(df[df['salary'] > 99999])
+outliers_counter = len(df[df['target'] > 99999])
 outliers_counter
 print("Accuracy percentage:", 100*list(df['anomaly']).count(-1)/(outliers_counter))
